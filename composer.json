@@ -3,8 +3,14 @@
     "description": "微信 SDK for Laravel",
     "keywords": ["wechat", "weixin","laravel", "sdk"],
     "require": {
-        "overtrue/wechat": "~3.0"
+        "overtrue/wechat": "dev-master"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/tsunamilx/wechat"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Overtrue\\LaravelWechat\\": "src/"
